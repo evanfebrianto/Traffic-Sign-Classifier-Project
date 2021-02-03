@@ -13104,7 +13104,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load pickled data</span>
@@ -13158,7 +13158,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Replace each question mark with the appropriate value. </span>
@@ -13232,7 +13232,7 @@ Number of classes = 43
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Data exploration visualization code goes here.</span>
@@ -13256,7 +13256,7 @@ Number of classes = 43
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
@@ -13278,7 +13278,7 @@ Number of classes = 43
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">csv</span>
@@ -13647,7 +13647,7 @@ Number of classes = 43
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">EPOCHS</span> <span class="o">=</span> <span class="mi">20</span>
@@ -13763,7 +13763,7 @@ C:\Users\vanev\anaconda3\envs\SDC\lib\site-packages\tensorboard\compat\tensorflo
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">keep_prob</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
@@ -13781,7 +13781,7 @@ C:\Users\vanev\anaconda3\envs\SDC\lib\site-packages\tensorboard\compat\tensorflo
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rate</span> <span class="o">=</span> <span class="mf">0.001</span>
@@ -13810,7 +13810,7 @@ C:\Users\vanev\anaconda3\envs\SDC\lib\site-packages\tensorboard\compat\tensorflo
 <pre>WARNING:tensorflow:From C:\Users\vanev\anaconda3\envs\SDC\lib\site-packages\tensorflow\contrib\layers\python\layers\layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
 Instructions for updating:
 Use keras.layers.flatten instead.
-WARNING:tensorflow:From &lt;ipython-input-11-efdf8e35eacc&gt;:38: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+WARNING:tensorflow:From &lt;ipython-input-5-efdf8e35eacc&gt;:38: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
 Instructions for updating:
 Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
 </pre>
@@ -13823,7 +13823,7 @@ Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">correct_prediction</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">equal</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">logits</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">tf</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">one_hot_y</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
@@ -14040,7 +14040,7 @@ Test Accuracy = 0.972
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">visualizeImages</span><span class="p">(</span><span class="n">images</span><span class="p">,</span><span class="n">labels</span><span class="p">):</span>
@@ -14067,7 +14067,7 @@ Test Accuracy = 0.972
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Load the images and plot them here.</span>
@@ -14161,7 +14161,7 @@ Test Accuracy = 0.972
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prediction_operation</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">logits</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -14186,7 +14186,7 @@ Test Accuracy = 0.972
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">resized_images</span> <span class="o">=</span> <span class="p">[]</span>
@@ -14219,6 +14219,9 @@ Test Accuracy = 0.972
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Loading model...
+WARNING:tensorflow:From C:\Users\vanev\anaconda3\envs\SDC\lib\site-packages\tensorflow\python\training\saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
 INFO:tensorflow:Restoring parameters from ./model/modified-lenet.ckpt
 Model loaded.
 </pre>
@@ -14231,7 +14234,7 @@ Model loaded.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">visualizeImages</span><span class="p">(</span><span class="n">resized_images</span><span class="p">,</span> <span class="n">predicted_labels</span><span class="p">)</span>
@@ -14361,7 +14364,7 @@ a = np.array([[ 0.24879643,  0.07032244,  0.12641572,  0.34763842,  0.07893497,
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">softmax</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">softmax</span><span class="p">(</span><span class="n">logits</span><span class="p">)</span>
@@ -14375,7 +14378,7 @@ a = np.array([[ 0.24879643,  0.07032244,  0.12641572,  0.34763842,  0.07893497,
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">Session</span><span class="p">()</span> <span class="k">as</span> <span class="n">sess</span><span class="p">:</span>
@@ -14386,7 +14389,7 @@ a = np.array([[ 0.24879643,  0.07032244,  0.12641572,  0.34763842,  0.07893497,
         <span class="n">img</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
         <span class="n">top5_prediction</span> <span class="o">=</span> <span class="n">sess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">top5_operation</span><span class="p">,</span> <span class="n">feed_dict</span><span class="o">=</span><span class="p">{</span><span class="n">x</span><span class="p">:</span> <span class="n">img</span><span class="p">,</span> <span class="n">keep_prob</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">})</span>
         <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{:s}</span><span class="s1">: </span><span class="si">{:.5f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">classId2SignName</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">top5_prediction</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">])],</span> <span class="n">top5_prediction</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="n">i</span><span class="p">]))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{:s}</span><span class="s1">: </span><span class="si">{:.5f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">classId2SignName</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">top5_prediction</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="n">i</span><span class="p">])],</span> <span class="n">top5_prediction</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="n">i</span><span class="p">]))</span>
         <span class="nb">print</span><span class="p">()</span>
 </pre></div>
 
@@ -14407,52 +14410,52 @@ a = np.array([[ 0.24879643,  0.07032244,  0.12641572,  0.34763842,  0.07893497,
 <pre>INFO:tensorflow:Restoring parameters from ./model/modified-lenet.ckpt
 
 Speed limit (30km/h): 1.00000
-Speed limit (30km/h): 0.00000
-Speed limit (30km/h): 0.00000
-Speed limit (30km/h): 0.00000
-Speed limit (30km/h): 0.00000
+Speed limit (20km/h): 0.00000
+Speed limit (50km/h): 0.00000
+General caution: 0.00000
+Speed limit (80km/h): 0.00000
 
 Right-of-way at the next intersection: 1.00000
-Right-of-way at the next intersection: 0.00000
-Right-of-way at the next intersection: 0.00000
-Right-of-way at the next intersection: 0.00000
-Right-of-way at the next intersection: 0.00000
+Beware of ice/snow: 0.00000
+Double curve: 0.00000
+Pedestrians: 0.00000
+End of no passing by vehicles over 3.5 metric tons: 0.00000
 
 Priority road: 1.00000
-Priority road: 0.00000
-Priority road: 0.00000
-Priority road: 0.00000
-Priority road: 0.00000
+End of all speed and passing limits: 0.00000
+Yield: 0.00000
+Keep right: 0.00000
+End of no passing: 0.00000
 
 Vehicles over 3.5 metric tons prohibited: 1.00000
-Vehicles over 3.5 metric tons prohibited: 0.00000
-Vehicles over 3.5 metric tons prohibited: 0.00000
-Vehicles over 3.5 metric tons prohibited: 0.00000
-Vehicles over 3.5 metric tons prohibited: 0.00000
+No passing: 0.00000
+Speed limit (100km/h): 0.00000
+End of no passing by vehicles over 3.5 metric tons: 0.00000
+Speed limit (60km/h): 0.00000
 
 General caution: 1.00000
-General caution: 0.00000
-General caution: 0.00000
-General caution: 0.00000
-General caution: 0.00000
+Traffic signals: 0.00000
+Pedestrians: 0.00000
+Road narrows on the right: 0.00000
+Road work: 0.00000
 
 Turn right ahead: 1.00000
-Turn right ahead: 0.00000
-Turn right ahead: 0.00000
-Turn right ahead: 0.00000
-Turn right ahead: 0.00000
+Ahead only: 0.00000
+Go straight or right: 0.00000
+Go straight or left: 0.00000
+Turn left ahead: 0.00000
 
 Keep right: 1.00000
-Keep right: 0.00000
-Keep right: 0.00000
-Keep right: 0.00000
-Keep right: 0.00000
+Turn left ahead: 0.00000
+Roundabout mandatory: 0.00000
+Speed limit (50km/h): 0.00000
+Speed limit (20km/h): 0.00000
 
 Keep right: 1.00000
-Keep right: 0.00000
-Keep right: 0.00000
-Keep right: 0.00000
-Keep right: 0.00000
+Turn left ahead: 0.00000
+Roundabout mandatory: 0.00000
+Speed limit (50km/h): 0.00000
+Speed limit (20km/h): 0.00000
 
 </pre>
 </div>
