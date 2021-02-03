@@ -19,14 +19,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[sample-data]: examples\sample-data.png "Sample Data"
-[undistorted]: examples\undistorted.png "Undistorted"
-[distorted]: examples\distorted.png "Distorted"
-[test-images]: examples\test-images.png "Sample Data From Web"
-[ahead-only]: examples\ahead-only.png "Ahead Only"
-[conv1]: examples\conv1_activation.png "conv1_activation"
-[conv2]: examples\conv2_activation.png "conv2_activation"
-[image1]: examples\dataset-distribution.png "Visualization"
+[sample-data]: examples/sample-data.png "Sample Data"
+[undistorted]: examples/undistorted.png "Undistorted"
+[distorted]: examples/distorted.png "Distorted"
+[test-images]: examples/test-images.png "Sample Data From Web"
+[ahead-only]: examples/ahead-only.png "Ahead Only"
+[conv1]: examples/conv1_activation.png "conv1_activation"
+[conv2]: examples/conv2_activation.png "conv2_activation"
+[image1]: examples/dataset-distribution.png "Visualization"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
